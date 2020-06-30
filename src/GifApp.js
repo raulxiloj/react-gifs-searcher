@@ -4,7 +4,7 @@ import { GifCollection } from './components/GifCollection';
 
 const GifApp = () => {
 
-    let [categories, setCategories] = useState(["Friends"]);
+    let [categories, setCategories] = useState(["Bob esponja"]);
 
     //const handleAdd = () => {
     //    setCategories([...categories, 'Spiderman']);

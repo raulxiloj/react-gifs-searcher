@@ -5,7 +5,7 @@
 
 body{
   padding: 60px;
-  background: linear-gradient(to right, #c31432, #240b36);
+  background: linear-gradient(to right, #6441a5, #2a0845);
 }
 
 input{
@@ -17,7 +17,6 @@ input{
 }
 
 #title{
-  
   font-family: monospace; 
   font-size: 3.5rem;
 }
@@ -46,5 +45,5 @@ input{
 }
 
 .card img {
-  max-height: 200px;
+  max-height: 190px;
 }
