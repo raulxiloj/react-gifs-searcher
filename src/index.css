@@ -1,15 +1,25 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial;
+  color: aliceblue;
 }
 
 body{
   padding: 60px;
+  background: linear-gradient(to right, #c31432, #240b36);
 }
 
 input{
+  border-radius: 7px;
   color: grey;
   font-size: 1.1rem;
+  padding-left: 10px;
   width: 100%;
+}
+
+#title{
+  
+  font-family: monospace; 
+  font-size: 3.5rem;
 }
 
 .card-grid{
@@ -20,18 +30,21 @@ input{
 
 .card{
   align-content: center;
-  border: 1px solid grey;
+  border: 1px solid white;
   border-radius: 6px;
   margin-bottom: 10px;
   margin-right: 10px;
   overflow: hidden;
+  color:white;
 }
 
 .card p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+  font-size: small;
   padding: 5px;
   text-align: center;
 }
 
 .card img {
-  max-height: 150px;
+  max-height: 200px;
 }
