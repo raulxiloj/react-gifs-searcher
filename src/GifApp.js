@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { AddCategory } from './components/AddCategory';
+import { GifCollection } from './components/GifCollection';
 
 const GifApp = () => {
 
-    let [categories, setCategories] = useState(["Suits", "Friends", "The bare bears"]);
+    let [categories, setCategories] = useState(["Friends"]);
 
     //const handleAdd = () => {
     //    setCategories([...categories, 'Spiderman']);
@@ -12,15 +13,14 @@ const GifApp = () => {
 
     return (
         <>
-            <h2>Giph App</h2>
+            <h1 id="title">Giph App</h1>
             <AddCategory setCategories={setCategories} />
             <hr />
-
             <ol>
                 {
-                    categories.map(category => {
-                        return <li key={category}>{category}</li>
-                    })
+                    categories.map(category =>
+                        <GifCollection key={category} category={category} />
+                    )
                 }
             </ol>
         </>
