@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for GifCollection component  It should render the component correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Hello
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  />
+</Fragment>
+`;
+
+exports[`Tests for GifCollection component  It should show the items when the imgs are loaded useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Hello
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  >
+    <GifItem
+      id="123"
+      key="123"
+      title="Anything gg"
+      url="https://localhost/anything"
+    />
+  </div>
+</Fragment>
+`;
