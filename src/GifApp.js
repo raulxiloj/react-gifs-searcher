@@ -16,13 +16,13 @@ const GifApp = () => {
             <h1 id="title" className="mt-5">Giph App</h1>
             <AddCategory setCategories={setCategories} />
             <hr className="separator" />
-            <ol>
-                {
-                    categories.map(category =>
-                        <GifCollection key={category} category={category} />
-                    )
-                }
-            </ol>
+
+            {
+                categories.map(category =>
+                    <GifCollection key={category} category={category} />
+                )
+            }
+
         </div >
     )
 }
