@@ -12,10 +12,10 @@ const GifApp = () => {
     //};
 
     return (
-        <>
-            <h1 id="title">Giph App</h1>
+        <div className="container">
+            <h1 id="title" className="mt-5">Giph App</h1>
             <AddCategory setCategories={setCategories} />
-            <hr />
+            <hr className="separator" />
             <ol>
                 {
                     categories.map(category =>
@@ -23,7 +23,7 @@ const GifApp = () => {
                     )
                 }
             </ol>
-        </>
+        </div >
     )
 }
 
