@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/raulxiloj/react-gifs-searcher/static/css/main.49ee493d.chunk.css",
-    "main.js": "/raulxiloj/react-gifs-searcher/static/js/main.56357029.chunk.js",
-    "main.js.map": "/raulxiloj/react-gifs-searcher/static/js/main.56357029.chunk.js.map",
-    "runtime-main.js": "/raulxiloj/react-gifs-searcher/static/js/runtime-main.14907ab1.js",
-    "runtime-main.js.map": "/raulxiloj/react-gifs-searcher/static/js/runtime-main.14907ab1.js.map",
-    "static/js/2.a6c06534.chunk.js": "/raulxiloj/react-gifs-searcher/static/js/2.a6c06534.chunk.js",
-    "static/js/2.a6c06534.chunk.js.map": "/raulxiloj/react-gifs-searcher/static/js/2.a6c06534.chunk.js.map",
-    "index.html": "/raulxiloj/react-gifs-searcher/index.html",
-    "precache-manifest.fb90d49dc724f6b44c0799affb919f9e.js": "/raulxiloj/react-gifs-searcher/precache-manifest.fb90d49dc724f6b44c0799affb919f9e.js",
-    "service-worker.js": "/raulxiloj/react-gifs-searcher/service-worker.js",
-    "static/css/main.49ee493d.chunk.css.map": "/raulxiloj/react-gifs-searcher/static/css/main.49ee493d.chunk.css.map",
-    "static/js/2.a6c06534.chunk.js.LICENSE.txt": "/raulxiloj/react-gifs-searcher/static/js/2.a6c06534.chunk.js.LICENSE.txt"
+    "main.css": "/raulxiloj/react-gifs-searcher/docs/static/css/main.49ee493d.chunk.css",
+    "main.js": "/raulxiloj/react-gifs-searcher/docs/static/js/main.56357029.chunk.js",
+    "main.js.map": "/raulxiloj/react-gifs-searcher/docs/static/js/main.56357029.chunk.js.map",
+    "runtime-main.js": "/raulxiloj/react-gifs-searcher/docs/static/js/runtime-main.89305be5.js",
+    "runtime-main.js.map": "/raulxiloj/react-gifs-searcher/docs/static/js/runtime-main.89305be5.js.map",
+    "static/js/2.a6c06534.chunk.js": "/raulxiloj/react-gifs-searcher/docs/static/js/2.a6c06534.chunk.js",
+    "static/js/2.a6c06534.chunk.js.map": "/raulxiloj/react-gifs-searcher/docs/static/js/2.a6c06534.chunk.js.map",
+    "index.html": "/raulxiloj/react-gifs-searcher/docs/index.html",
+    "precache-manifest.ebf9f371712b89dab56940f717812980.js": "/raulxiloj/react-gifs-searcher/docs/precache-manifest.ebf9f371712b89dab56940f717812980.js",
+    "service-worker.js": "/raulxiloj/react-gifs-searcher/docs/service-worker.js",
+    "static/css/main.49ee493d.chunk.css.map": "/raulxiloj/react-gifs-searcher/docs/static/css/main.49ee493d.chunk.css.map",
+    "static/js/2.a6c06534.chunk.js.LICENSE.txt": "/raulxiloj/react-gifs-searcher/docs/static/js/2.a6c06534.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.14907ab1.js",
+    "static/js/runtime-main.89305be5.js",
     "static/js/2.a6c06534.chunk.js",
     "static/css/main.49ee493d.chunk.css",
     "static/js/main.56357029.chunk.js"
