@@ -18,8 +18,8 @@ const GifApp = () => {
             <hr className="separator" />
 
             {
-                categories.map(category =>
-                    <GifCollection key={category} category={category} />
+                categories.map((category, i) =>
+                    <GifCollection key={i} category={category} />
                 )
             }
 
